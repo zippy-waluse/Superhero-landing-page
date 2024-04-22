@@ -1,0 +1,186 @@
+#container{
+    display: flex;
+    gap: 10%;
+}
+
+#heroimage{
+    width: 50%;
+}
+
+
+#footerlogo{
+ margin-left: 5%;
+ gap: 5%;
+ display: flex;
+
+}
+
+.body{
+    margin-left: 7%;
+}
+
+#explore{
+    display: flex;
+    border: solid;
+    border-radius: 250px;
+    /* background-color:  #ED2647; */
+    background-color: aliceblue;
+    gap: 5%;
+    
+}
+
+#explorebutton{
+    border-radius: 15px;
+    background-color: #ED2647;
+    margin-top: 7%;
+    height: 75%;
+}
+
+#tickicons{
+    display: flex;
+    gap: 15%;
+}
+
+#Superherotext{
+    color: #ED2647;
+}
+
+#gradcap{
+    display: flex;
+}
+
+#herotext{
+    color: #ED2647;
+}
+
+.loginbutton{
+    border-radius: 250px;
+  
+}
+
+.joinbutton{
+    border-radius: 250px;
+    background-color: #ED2647;
+}
+
+#buttons{
+    margin-left: 70%;
+    height: 60%;
+    padding-bottom: 5%;
+}
+
+#navbar{
+    gap: 10%;
+}
+
+.navbar{
+    gap: 10%;
+    margin-left: 60%;
+    
+}
+
+#Superherotext{
+    color: #ED2647;
+}
+
+
+#body{
+    font-size: larger;
+}
+
+@media only screen and (max-width: 375px) and (min-width:667px ){
+
+    #footerlogo{
+        display: grid;
+      flex-direction: column;
+
+    }
+
+    #explore{
+        display: grid;
+        flex-wrap: wrap;
+     
+        
+    }
+
+    #navbar{
+        gap: 10%;
+        font-size: x-large;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 800px) and (min-width:375px ){
+    #footerlogo{
+        display: grid;
+
+    }
+
+ .navbar{
+    flex-wrap: wrap;
+    font-size: larger;
+
+ }
+
+ #heroimage{
+    height: 30%;
+    width: 80%;
+ }
+
+ .navbar{
+    /* gap: 10%; */
+    margin-left: 10%;
+    font-size: larger;
+    
+    
+    
+}
+
+
+
+#explore{
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+    background-color: aliceblue;
+    gap: 5%;
+    
+}
+
+
+@media only screen and (max-width: 1368px) and (min-width:912px ){
+
+    .navbar{
+        display: flex;
+        font-size: larger;
+    
+     }
+
+
+}
+
+#explore{
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+    background-color: aliceblue;
+    gap: 5%;
+    
+}
+
+@media only screen and (max-width: 800px) and (min-width:400px ){
+    #explore{
+        display: flex;
+        border: solid;
+        border-radius: 5px;
+        background-color: aliceblue;
+        gap: 5%;
+        
+    }
+}
+
+
+
+}
