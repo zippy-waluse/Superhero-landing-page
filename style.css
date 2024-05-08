@@ -88,16 +88,11 @@
     font-size: larger;
 }
 
-g
-    #footerlogo{
-        display: grid;
-      flex-direction: column;
 
-    }
 
     #explore{
-        display: grid;
-        flex-wrap: wrap;
+       width: 98%;
+       /* height: 15%; */
      
         
     }
@@ -108,18 +103,28 @@ g
     }
 
 
+    .icon{
+        width: 10%;
+        
+    }
 
-}
+    #footerlogo{
+        display: flex;
+    }
+
+
+
 
 @media only screen and (max-width: 800px) and (min-width:375px ){
     #footerlogo{
         display: grid;
-
+         
     }
 
  .navbar{
     flex-wrap: wrap;
     font-size: larger;
+    margin-right: 2%;
 
  }
 
