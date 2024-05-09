@@ -15,6 +15,11 @@
 
 }
 
+
+.icon{
+    width: 15px;
+}
+
 .body{
     margin-left: 7%;
 }
@@ -47,6 +52,7 @@
 
 #gradcap{
     display: flex;
+    padding-top: 10px;
 }
 
 #herotext{
@@ -56,6 +62,10 @@
 .loginbutton{
     border-radius: 250px;
   
+}
+
+.icon{
+    width: 5%;
 }
 
 .joinbutton{
@@ -110,6 +120,8 @@
 
     #footerlogo{
         display: flex;
+        width: 45%;
+        gap: 15%;
     }
 
 
